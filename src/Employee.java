@@ -49,9 +49,13 @@ public class Employee {
     
     public void  raisedSalary(int percent ) {
 
+        if(percent <= 0){
+            System.out.println("Invalid percentage");
+            return;
+        }
         this.salary += this.salary*(float)(percent)/100;
 
-        System.out.println("Salary raised: " + this.salary);
+        System.out.println("Salary raised to : " + this.salary);
 
     }
 
@@ -59,10 +63,10 @@ public class Employee {
 
         System.out.println("__________________");
         System.out.println("| Employee details |");
-
-        System.out.println("|   Name: " + name);
-        System.out.println("|   ID: " + id);
-        System.out.println("|   Salary: " + salary);
+        System.out.println("|   Name: " + getName());
+        System.out.println("|   ID: " + getId());
+        System.out.println("|   Salary: " + (int)getSalary());
+        System.out.println("|   Annual Salary: " + (int)getAnnualSalary());
         System.out.println("__________________");
 
     }
