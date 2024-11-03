@@ -97,17 +97,21 @@ public class Main {
 
 //        _____________________________________Employee_________________________________________________________________
 
-//        Employee salem = new Employee();
-//
+//        Employee salem1 = new Employee();
+
 //        Employee khaled = new Employee("554455555","Khaled",5000);
-//
+
 //        salem.setName("Salem");
 //        salem.setId("454384789847");
 //        salem.setSalary(20000);
 //
+//        System.out.println("Welcome "+salem.getName());
+//        System.out.println("Your id is : "+salem.getId());
+//        System.out.println(("Your salary is : "+ salem.getSalary());
 //
 //
-//        salem.print();
+//
+
 //        salem.raisedSalary(30);
 //
 //        khaled.print();

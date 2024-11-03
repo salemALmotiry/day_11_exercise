@@ -36,7 +36,7 @@ public class Employee {
     }
 
     public void setSalary(int salary) {
-       if(salary < 0){
+       if(salary <= 0){
            System.out.println("Invalid salary");
            return;
        }
